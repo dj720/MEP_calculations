@@ -18,3 +18,4 @@ coolprop
 fluids
 regex
 xlrd
+coolprop

@@ -1,7 +1,6 @@
 import streamlit as st
 from common import setup_page
 import pandas as pd
-import math
 from pyfluids import Fluid, FluidsList, Input
 
 from processing.heating_processing import (create_resultsheet,

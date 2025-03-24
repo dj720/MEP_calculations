@@ -1,7 +1,6 @@
 from fpdf import FPDF
 import getpass
 import datetime
-from datetime import datetime
 import csv
 import numpy as np
 from fluids.friction import friction_factor
@@ -173,7 +172,6 @@ def calculate_expansion_factor(max_temperature):
         f2 = expansion_factors[idx]
         expansion_factor = f1 + ((f2 - f1) / (t2 - t1)) * (max_temperature - t1)
         return expansion_factor
-
 
 def calculate_CFP(static_head):
     exclude_air = 0.35
